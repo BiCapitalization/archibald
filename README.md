@@ -1,5 +1,5 @@
-# Archie - Hugo theme
-Archie is a minimal and clean theme for hugo with a markdown-ish UI.
+# Archibald - Hugo theme
+Archibald is a minimal and clean theme for hugo with a markdown-ish UI.
 
 Forked from [Athul's Archie theme](https://github.com/athul/archie)
 
@@ -23,7 +23,7 @@ $ mkdir themes
 $ cd themes
 $ git clone git@github.com:BiCapitalization/archie.git
 ```
-Edit the `config.toml` file with `theme = "archie"`
+Edit the `config.toml` file with `theme = "archibald"`
 For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
 
 ## Writing Posts

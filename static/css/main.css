@@ -196,6 +196,12 @@ article .title {
   color: var(--callouctcolor);
 }
 
+/* icons */
+.icon {
+    position: relative;
+    top: 0.25ex; 
+}
+
 .site-description {
 display: flex;
 justify-content: space-between;

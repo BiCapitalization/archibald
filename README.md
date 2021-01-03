@@ -19,6 +19,7 @@ Currently there's no demo, sorry :(
   [feather](https://feathericons.com/) for access to more icons
 - different default colors
 - cleaned-up css
+- several bug fixes
 
 ## Installation
 In your Hugo website directory, create a new folder named theme and clone this

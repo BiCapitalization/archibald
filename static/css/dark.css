@@ -31,7 +31,7 @@ pre {
   padding: 1em;
 }
 blockquote {
-  border-color: var(--darkBorderColor);
+  border-color: var(--darkBlockQuoteColor);
 }
 
 h1,

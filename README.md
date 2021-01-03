@@ -1,33 +1,38 @@
 # Archibald - Hugo theme
-Archibald is a minimal and clean theme for hugo with a markdown-ish UI.
-
-Forked from [Athul's Archie theme](https://github.com/athul/archie)
+Archibald is a slightly modified and cleaned-up version of [Athul's Archie
+theme](https://github.com/athul/archie), which is a minimal and clean theme for
+Hugo with a markdown-ish UI.
 
 ## Demo
 
-[Check the Demo](https://athul.github.io/archie/) hosted on GitHub Pages :smile: . You can find the source code to that in the `site` branch of this repository
+Currently there's no demo, sorry :(
 
-![](/images/theme.png)
-![](/images/archie-dark.png)
-## Feature
+## Features
 - Google Analytics Script
 - Callouts
 - Tags
 - Auto Dark Mode(based on system theme)
 - tl:dr; frontamatter
 
+## Differences compared to Archie
+- [lucide](https://github.com/lucide-icons/lucide) instead of
+  [feather](https://feathericons.com/) for access to more icons
+- different default colors
+- cleaned-up css
+
 ## Installation
-In your Hugo website directory, create a new folder named theme and clone the repo
+In your Hugo website directory, create a new folder named theme and clone this
+repository
 ```bash
 $ mkdir themes
 $ cd themes
-$ git clone git@github.com:BiCapitalization/archie.git
+$ git clone git@github.com:BiCapitalization/archibald.git
 ```
-Edit the `config.toml` file with `theme = "archibald"`
-For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
+Then, in `config.toml`, set `theme = "archibald"`. For more information read
+the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
 
-## Writing Posts
-Create a new `.md` file in the *content/posts* folder
+## Post format
+Use the following as a reference for front matter options:
 ```yml
 ---
 title: Title of the post
@@ -42,5 +47,4 @@ tags: [tag names] (optional)
 ## Credits
 Forked from [Athul's Archie theme](https://github.com/athul/archie), which is
 itself forked from from the [Ezhil Theme](https://github.com/vividvilla/ezhil),
-and licensed under MIT License.
-
+and licensed under the MIT License.

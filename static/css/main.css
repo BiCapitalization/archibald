@@ -206,6 +206,11 @@ article .title {
     top: 0.25ex; 
 }
 
+.arrow {
+    position: relative;
+    top: 0.3ex;
+}
+
 .site-description {
 display: flex;
 justify-content: space-between;
@@ -213,10 +218,10 @@ justify-content: space-between;
 .tags li::before{
   content: "🏷 ";
 }
-.tags a{
+.tags a {
   border-bottom: 3px solid var(--mainColor); 
 }
-.tags a:hover{
+.tags a:hover {
   color:white;
   background-color: var(--hoverColor); 
 }
@@ -285,18 +290,18 @@ content: 'py';
 background: blue;
 color: yellow ;
 }
-.highlight pre code[class*='language-css']::before{
+.highlight pre code[class*='language-css']::before {
 content: 'css';
 background: cyan;
 color: black ;
 }
-.highlight pre code[class*='language-go']::before{
+.highlight pre code[class*='language-go']::before {
 content: 'Go';
 background: cyan;
 color: royalblue ;
 }
 .highlight pre code[class*='language-md']::before,
-.highlight pre code[class*='language-md']::before{
+.highlight pre code[class*='language-md']::before {
 content: 'Markdown';
 background: royalblue;
 color: whitesmoke ;
